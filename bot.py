@@ -167,7 +167,7 @@ def main() -> None:
     """Start the bot"""
     try:
         # Replace 'YOUR_BOT_TOKEN' with your actual bot token from BotFather
-        application = Application.builder().token('YOUR_BOT_TOKEN').build()
+        application = Application.builder().token('7887076680:AAEGVUDE99LRCIJzkNjOydcFVJyUYeErnuE').build()
 
         # Add handlers
         application.add_handler(CommandHandler("start", start))
